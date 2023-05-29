@@ -1,0 +1,70 @@
+
+<ion-content>
+  <ion-input placeholder="Enter c_id" [(ngModel)]="this.array1.c_id"></ion-input>
+  <ion-input placeholder="Enter p_name" [(ngModel)]="this.array1.p_name"></ion-input>
+  <ion-input placeholder="Enter qty" [(ngModel)]="this.array1.qty"></ion-input>
+  <ion-input placeholder="Enter price" [(ngModel)]="this.array1.price"></ion-input>
+  <ion-input placeholder="Enter date" [(ngModel)]="this.array1.date"></ion-input>
+  <ion-button shape="round" color="warning" (click)="next()">
+
+  {{this.ok}}
+  </ion-button>
+<ion-row >
+  <ion-col size-md="1" class="col1"> c_id</ion-col>
+  <ion-col size-md="2" class="col1">p_name</ion-col>
+  <ion-col size="2"  class="col1">qty</ion-col>
+  <ion-col size="2"  class="col1">price</ion-col>
+  <ion-col size="2"  class="col1">date</ion-col>
+  <ion-col size="3"  class="col1"> Update+Delete</ion-col>
+<ion-col size-md="12" class="col1" >
+  <ion-row *ngFor="let item of storedata">
+<ion-col size-md="1">{{item.c_id}}</ion-col>
+<ion-col size-md="2" >{{item.p_name}}</ion-col>
+<ion-col size-md="2" >{{item.qty}}</ion-col>
+<ion-col size-md="2" >{{item.price}}</ion-col>
+<ion-col size-md="2" >{{item.date}}</ion-col>
+<!-- <ion-content class="ion-padding"> -->
+
+<ion-button expand="block"  (click)="update(item,true)" ><ion-icon name="clipboard-outline"></ion-icon>
+</ion-button>
+<ion-modal [isOpen]="isModalOpen">
+  <ng-template>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Modal</ion-title>
+        <!-- <ion-buttons slot="end">
+          <ion-button >Close</ion-button>
+        </ion-buttons> -->
+      </ion-toolbar>
+    </ion-header>
+    <ion-content >
+  
+      <ion-input placeholder="Enter c_id" [(ngModel)]="this.array2.c_id"></ion-input>
+      <ion-input placeholder="Enter p_name" [(ngModel)]="this.array2.p_name"></ion-input>
+      <ion-input placeholder="Enter qty" [(ngModel)]="this.array2.qty"></ion-input>
+      <ion-input placeholder="Enter price" [(ngModel)]="this.array2.price"></ion-input>
+      <ion-input placeholder="Enter date" [(ngModel)]="this.array2.date"></ion-input>
+      <ion-button shape="round" color="warning" (click)="next1(false)">
+    
+{{this.ok}}
+      </ion-button>    
+    </ion-content>
+  </ng-template>
+</ion-modal>
+    <!-- <ion-button id="open-modal" expand="block">open for more detail</ion-button> -->
+  
+    <!-- <ion-modal #modal trigger="open-modal" [initialBreakpoint]="0.25" [breakpoints]="[0, 0.25, 0.5, 0.75]">
+      <ng-template>
+        <ion-content>
+    
+        </ion-content>
+      </ng-template>
+    </ion-modal> -->
+  <!-- </ion-content> -->
+  
+<!-- </ion-button> -->
+<ion-button (click)="delete(item)"><ion-icon name="trash-outline"></ion-icon></ion-button>
+</ion-row>
+</ion-col>
+</ion-row>
+</ion-content>

@@ -1,0 +1,276 @@
+.list1 {
+    max-width: 576px;
+    width: 100%;
+    margin: auto;
+}
+
+.list2 {
+    width: 92%;
+    margin: auto;
+    border: 1px solid transparent;
+}
+
+.button1 {
+    --border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    --background: black;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.button2 {
+    --border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    --background: white;
+    float: right;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.list3 {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+    height: 170px;
+    background-color: grey;
+
+}
+
+.img1 {
+    height: 170px;
+    float: right;
+    width: 30%;
+
+}
+
+.list4 {
+    height: 170px;
+    width: 70%;
+    text-align: left;
+    border: 1px solid transparent;
+    background: transparent;
+}
+
+.text1 {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.text2 {
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.text3 {
+    margin-left: 10px;
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(71, 67, 67);
+}
+
+.button3 {
+    margin-top: -5px;
+    margin-left: 10px;
+    --background: black;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    height: 40px;
+    width: 100px;
+}
+
+.list5 {
+    margin: auto;
+    margin-top: 10px;
+    width: 95%;
+    
+}
+
+.text4 {
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: left;
+    float: left;
+}
+
+.text5 {
+    float: right;
+    text-align: right;
+    font-size: 15px;
+    font-weight: normal;
+    color: grey;
+    margin-top: 29px;
+    margin-right: 20px;
+}
+
+.list6 {
+    float: left;
+    width: 45%;
+    margin-left: 10px;
+    height: 170px;
+}
+
+.list7 {
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url(../../assets/img1.jpg);
+    background-size: cover;
+}
+
+.text6 {
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.text7 {
+    font-size: 10px;
+    font-weight: lighter;
+    color: grey;
+    text-align: center;
+    margin-top: -4px;
+}
+
+.list8 {
+    float: right;
+    width: 45%;
+    height: 170px;
+    margin-right: 10px;
+}
+
+.list9 {
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url(../../assets/img26.jpg);
+    background-size: cover;
+}
+
+.text8 {
+    float: right;
+    margin-top: 27px;
+    margin-right: -143px;
+    font-size: 15px;
+    color: grey;
+    font-weight: normal;
+}
+
+.list10 {
+    width: 100%;
+    
+    color: whitesmoke;
+    height: 120px;
+}
+
+.icon2 {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 20px;
+}
+
+.img2 {
+    border-radius: 20px;
+    height: 90px;
+    width: 100px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.list11 {
+    
+    width: 140px;
+    height: 90px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 10px;
+}
+
+.text9 {
+    font-size: 15px;
+    color: grey;
+    font-weight: normal;
+    text-align: left
+}
+
+.text10 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 2px;
+}
+
+.icon3 {
+    font-size: 20px;
+    color: orange;
+    margin-top: -8px;
+    float: left;
+}
+
+.text11 {
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    float: left;
+    margin-left: 5px;
+    margin-top: -7px;
+}
+
+.text12 {
+    float: right;
+    font-weight: bolder;
+  margin-right: 10px;   font-size: 20px;
+    color: black;
+ margin-top: 40px;
+}
+.list12 {
+    
+    width: 99%;
+    height: 60px;
+    border: 1px solid transparent;
+    background-color: beige;
+    position: sticky;
+    bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.avatar2 {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+}
+
+.chip1 {
+    margin-top: 15px;
+
+}
+
+.icon4 {
+    font-size: 20px;
+    
+    margin-top: 20px;
+}
+.col1{
+    text-align: center;
+}   

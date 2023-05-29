@@ -1,0 +1,37 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>page3</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content>
+  <ion-list class="list1">
+    <ion-avatar class="avatar1"><img class="img1" src="../../assets/fashion image.png" alt=""></ion-avatar>
+    <ion-list class="list3">
+    <h1 class="text1">Welcome!</h1>
+    <p class="text2">please login or sign up our app to continue</p></ion-list>
+    <ion-list>
+    <ion-item class="item1">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="email" placeholder="Enter Email" [(ngModel)]="this.user.email"   > <ion-icon class="icon1" name="checkmark-circle-outline"></ion-icon></ion-input>
+    </ion-item>
+    <ion-item class="item1">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" placeholder="Enter Password"   [(ngModel)]="this.user.password"  > <ion-icon class="icon1" name="checkmark-circle-outline"></ion-icon></ion-input>
+    </ion-item></ion-list>
+    <ion-list class="list2">
+<ion-button class="button1" shape="round" (click)="next1()" >Login</ion-button>
+<p class="text3">or</p>
+<ion-button class="button2" shape="round" > <ion-icon class="icon2" name="logo-facebook"></ion-icon>
+<p class="icon2" >continue with facebook</p>
+</ion-button>
+<ion-button class="button3" shape="round"><ion-icon class="icon3" name="logo-google"></ion-icon>
+<p class="icon3"> continue with google</p>
+</ion-button>
+<ion-button class="button3" shape="round"><ion-icon class="icon3" name="logo-apple"></ion-icon>
+  <p class="icon3"> continue with Apple</p>
+  </ion-button>
+</ion-list>
+  </ion-list>
+
+</ion-content>

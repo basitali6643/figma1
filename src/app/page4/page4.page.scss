@@ -1,0 +1,86 @@
+.list1 {
+    width: 100%;
+    margin-left: auto; margin-right: auto;
+    max-width: 576px;
+
+}
+
+.avatar1 {
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    margin: auto;
+}
+
+.img1 {
+    height: 100%;
+    width: 100%;
+}
+
+.text1 {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-left: 10px;
+}
+
+.text2 {
+    font-size: 20px;
+    margin-top: -5px;
+    font-weight: lighter;
+    margin-left: 10px;
+    color: grey;
+}
+
+.list3 {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+
+.item1 {
+    width: 93%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.icon1 {
+    position: absolute;
+    right: 0px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.list4 {
+    height: 15px;
+    width: 15px;
+    border: 2px solid grey;
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.text3 {
+    font-size: 15px;
+    font-weight: lighter;
+    color: grey;
+    float: left;
+    margin-top: -16px;
+    margin-left: 43px;
+}
+.list5{
+    text-align: center;
+}
+.list6{
+    width: 90%; margin: auto;
+}
+.button1 {
+    margin: auto;
+    margin-top: 14px;
+    width: 100%;
+    text-align: center;
+    --background: black;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}

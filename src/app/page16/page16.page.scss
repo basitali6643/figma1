@@ -1,0 +1,131 @@
+.list1 {
+    width: 100%;
+    margin: auto;
+    max-width: 576px;
+}
+
+.list2 {
+    width: 95%;
+    margin: auto;
+
+}
+
+.button2 {
+    --border-radius: 100%;
+    --background: grey;
+    height: 40px;
+    width: 40px;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    font-weight: lighter;
+    float: right;
+}
+
+.button1 {
+    --border-radius: 100%;
+    --background: black;
+    height: 40px;
+    width: 40px;
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    float: left;
+}
+
+.img1 {
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 80px;
+    width: 100px;
+    border-radius: 10px;
+    float: left;
+}
+
+.item1 {
+    margin-top: 20px;
+    background-color: whitesmoke;
+
+    height: 90px;
+    width: 100%;
+}
+
+.item2 {
+    margin-top: 5px;
+    background-color: transparent;
+    height: 80px;
+    width: 230px;
+    float: left;
+    margin-left: 5px;
+}
+
+.text2 {
+    font-size: 23px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.text3 {
+    font-size: 15px;
+    font-weight: normal;
+    color: gray;
+    margin-top: -6px;
+}
+
+.list3 {
+  //      height: 300px;
+    width: 95%; margin-top: 10px;
+   // margin: auto;
+   margin-left: auto; margin-right: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.list4{
+    display: flex; width: 100%; margin-top: 5px;
+}
+.button3{
+    height: 40px; width: 40px; --border-radius: 10px; --background: gray; float: left; margin-left: 10px;
+    font-size: 12px; font-weight: bold; color: black; 
+}
+.text4{
+    float: left; margin-left: 20px;  font-size: 20px; font-weight: bold; margin-top: 12px;
+}
+.icon4{
+     position: absolute;  right: 12px; top: 15px;  font-size: 18px; font-weight: bold; color: black; 
+}
+
+.list12 {
+    
+    width: 99%;
+    height: 60px;
+    border: 1px solid transparent;
+    background-color: beige;
+    position: sticky;
+    bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.avatar2 {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+}
+
+.chip1 {
+    margin-top: 15px;
+
+}
+
+.icon5 {
+    font-size: 20px;
+    
+    margin-top: 20px;
+}
+.col1{
+    text-align: center;
+}   

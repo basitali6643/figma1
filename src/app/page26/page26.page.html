@@ -1,0 +1,8 @@
+<ion-content>
+<app-input    [hero]="name"  (newItemEvent)="addItem($event)">
+ 
+</app-input>
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul>
+</ion-content>

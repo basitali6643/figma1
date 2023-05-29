@@ -1,0 +1,92 @@
+.list1 {
+    width: 100%;
+max-width: 375px; margin-left: auto; margin-right: auto;
+}
+
+.avatar1 {
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    margin: auto;
+}
+
+.img1 {
+    height: 100%;
+    width: 100%;
+}
+
+.text1 {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-left: 10px;
+}
+
+.text2 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: 10px;
+    color: grey;
+}
+
+.item1 {
+    width: 93%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.icon1 {
+    position: absolute;
+    right: 0px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.list2 {
+    width: 90%;
+    margin: auto;
+}
+
+.button1 {
+    margin: auto;
+    margin-top: 14px;
+    width: 100%;
+    text-align: center;
+    --background: black;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.list3 {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+
+.button2 {
+    width: 100%;
+    margin-top: 2px;
+    text-align: center;
+    --background: blue;
+}
+
+.text3 {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.icon2 {
+    font-size: 20px;
+    color: white;
+   margin-left: 20px;  float: left; 
+}
+.button3{
+    width: 100%; margin-top: 2px; --background: lightgrey;
+    text-align: center;
+}
+.icon3{
+    font-size: 20px; float: left; color: black; margin-left: 20px;
+}

@@ -1,0 +1,29 @@
+.list1{
+    width: 100%; border:2px solid transparent;
+text-align: center; max-width: 576px; margin-left:auto; margin-right:auto;
+}
+.icon1{
+    font-size: 70px; color: green; margin-top: 200px;
+}
+.text1{
+font-size: 30px; color: black; margin-top: 10px;
+ font-weight: bolder;
+}
+.text2{
+    font-size: 15px; font-weight: lighter; margin-top: 0px;
+    color: grey; 
+ }
+ .list2{
+    border: 1px solid transparent;
+    width: 90%; margin: auto;   margin-top: 150px;
+ }
+ .button1 {
+    margin: auto;
+    margin-top: 14px;
+    width: 100%;
+    text-align: center;
+    --background: black;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}

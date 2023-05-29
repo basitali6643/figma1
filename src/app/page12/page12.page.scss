@@ -1,0 +1,178 @@
+.list1 {
+    width: 100%;
+    max-width: 576px;
+}
+
+.list2 {
+    width: 95%;
+    margin: auto;
+}
+
+.text1 {
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 2px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.icon1 {
+    float: right;
+    color: orange;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+    text-align: right;
+}
+
+.list3 {
+    width: 95%;
+    margin: auto;
+  
+}
+
+.button1 {
+    --border-radius: 100%;
+    --background: black;
+    height: 50px;
+    width: 50px;
+    font-size: 15px;
+    float: left;
+}
+
+.avatar1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-image: url(../../assets/pica.png);
+    float: right;
+    background-size: cover;
+}
+.sb1{
+    height: 50px;  width: 85%; --border-radius: 20px; float: left;
+}
+
+.button2 {
+    --border-radius: 100%;
+    --background: black;
+    height: 40px;
+    width: 40px;
+    font-size: 12px;
+    float: right;
+}
+
+
+.list4{
+    display: flex;
+}
+.button4{
+    width:23%; --background:black; color: white; font-size: 15px; font-weight: lighter;
+}
+.button5{
+    margin-left: 5px;
+    width:23%; --background:white; color: black;  border: 1px solid grey;
+   border-radius:20px ;  font-size: 15px; font-weight: lighter;
+}
+
+.list6 {
+    margin-top: 20px;
+    float: left;
+    width: 45%;
+    margin-left: 10px;
+    height: 190px;
+}
+
+.list7 {
+    height: 120px;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url(../../assets/img1.jpg);
+    background-size: cover;
+}
+
+.text6 {
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.text7 {
+    font-size: 10px;
+    font-weight: lighter;
+    color: grey;
+    text-align: center;
+    margin-top: -4px;
+}
+
+.list8 {
+    float: right;
+    width: 45%; margin-top: 80px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.list9 {
+    height: 130px;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url(../../assets/img26.jpg);
+    background-size: cover;
+}
+
+.icon2 {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 20px;
+}
+
+.list10 {
+    margin-top: 0px;
+    float: left;
+    width: 45%;
+    margin-left: 10px;
+    height: 190px;
+}
+
+.list11 {
+    float: right;
+    width: 45%; margin-top: 20px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.list12 {
+    
+    width: 99%;
+    height: 60px;
+    border: 1px solid transparent;
+    background-color: beige;
+    position: sticky;
+    bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.avatar2 {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+}
+
+.chip1 {
+    margin-top: 15px;
+
+}
+
+.icon4 {
+    font-size: 20px;
+    
+    margin-top: 20px;
+}
+.col1{
+    text-align: center;
+}   

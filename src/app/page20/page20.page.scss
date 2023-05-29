@@ -1,0 +1,203 @@
+
+.a{
+    width: 90%;
+    margin: auto;
+        margin-top: 1rem;
+    }
+    .a-1{
+        float: left;
+        display: flex;
+    width: 33px;
+    height: 33px;
+    border-radius: 100%;
+    background-color: black;
+    }
+    .a1-icon{
+        font-size: 22px;
+        margin-top: 6px;
+        color: white;
+    }
+    .a-1text{
+        margin-top: -4px;
+        font-size: 30px;
+        color: white;
+        margin-left:-5px ;
+    }
+    .b{
+        width: 90%;
+        margin: auto;
+    }
+    .b-text{
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .u-text{
+        font-size: 21px;
+        font-weight: bolder;
+    }
+    .c{
+        width: 90%;
+        margin: auto;
+    }
+    .c-butoon{
+        width: 100%;
+        --background-activated:black;
+        --color-activated:white;
+        height: 50px;
+        background-color: lightgray;
+        --background: transparent;
+        border-radius: 10px;
+    }
+    .c1{
+         
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 5px;
+        border-radius: 100%;
+    }
+    .c2{
+        float: left;
+        width: 40%;
+        background: transparent;
+        height: 40px;
+        position: absolute;
+        left: 60px;
+    }
+    .c2-text{
+        text-align: start;
+        color: black;
+        margin-top: 10px;
+    }
+    .c1-img{
+        margin-top:8px;
+
+    }
+    .c2-img{
+width: 20px;
+margin-top: 8px;
+height: 20px;
+    }
+    .c3-img{
+        margin-top: 8px;
+            }
+    .c3-checkbox{
+        --size:15px;
+        --border-color:black;
+    }
+    .c3{
+        position: absolute;
+background-color: transparent;
+        right: 0;
+        width: 20px;
+        height: 20px;
+    }
+    .d{
+        width: 90%;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .e{
+        width: 90%;
+        margin: auto;
+        margin-top: 5px;
+        text-decoration: dotted;
+    }
+    .d-button{
+        width: 100%;
+        --background: transparent;
+        color: black;
+        border: 1px dotted ;
+        border-radius: 10px;
+        --background-activated:black;
+
+    }
+    .e-1{
+        border: 1px solid;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+    }
+    .e1-center{
+        margin-top: 5px;
+        font-weight: bolder;
+    }
+    .e-text{
+        margin-left: 10px;
+        font-weight: bold;
+    }
+    .f{
+        width: 90%;
+        margin: auto;
+        background-color: lightgray;
+        border-radius: 20px;
+    }
+    .g{
+        width: 90%;
+        margin: auto;
+        background-color: lightgray;
+        border-radius: 20px;
+        margin-top: 13px;
+    }
+    .f1-img{
+width: 100%;
+    }
+    .f1{
+        width: 60px;
+        height: 75px;
+        border: 1px solid;
+        float: left;
+        margin: 13px;
+        border-radius: 10px;
+    }
+    .f2{
+        float: left;
+        background: transparent;
+    }
+    .f3{
+        float: right;
+        background: transparent;
+        margin-top: 14px;
+        margin-right:9px ;
+    }
+    .f4{
+        width: 100px;
+        display: flex;
+        border-radius: 10px;
+        width: 70px;
+        height: 25px;
+        margin-top: -6px;
+        background-color: lightblue;
+    }
+    .f2-text{
+        margin-top: 15px;
+        font-weight: bolder;
+        font-size: 19px;
+    }
+    .f2-text1{
+        margin-top: -8px;
+    }
+    .f5{
+        width: 15px;
+        height: 15px;
+        margin: 4px;
+        border-radius: 100%;
+        background-color: black;
+
+    }
+    .f5-icon{
+        color: white;
+        width: 100%;
+        height: 100%;
+    }
+    .g6{
+        margin-top: 4px;
+        font-size: 13px;
+        font-weight: bolder;
+    }
+    .f3-text{
+        float: right;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-top: 20px;
+    }

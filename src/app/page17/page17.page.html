@@ -1,0 +1,82 @@
+
+<ion-content>
+<ion-list class="list1">
+  <ion-list class="list2">
+      <ion-icon name="arrow-back-circle"  class="icon1" ></ion-icon>
+      <h1 class="text1">Delivery Address</h1>
+  </ion-list>
+<ion-list class="list3">
+   <ion-list class="list5">
+  <h1 class="text4">Street:</h1><p class="text5">{{this.address.street}}</p>
+</ion-list>
+
+<ion-list class="list4">
+  <h1 class="text2">City:</h1><p class="text3">{{this.address.city}}</p>
+</ion-list>
+
+<ion-list class="list4">
+  <h1 class="text2">State/province/area:</h1><p class="text3">Tamil Nadu</p>
+</ion-list>
+
+<ion-list class="list4">
+  <h1 class="text2">Phone number:</h1><p class="text3">8870523416</p>
+</ion-list>
+
+
+<ion-list class="list4">
+  <h1 class="text2">Zip Code:</h1><p class="text3">95814</p>
+</ion-list>
+
+
+<ion-list class="list4">
+  <h1 class="text2">Country calling code:</h1><p class="text3">+91</p>
+</ion-list>
+
+
+<ion-list class="list4">
+  <h1 class="text2">Country:</h1><p class="text3">India</p>
+</ion-list>
+
+
+<ion-list class="list4">
+  <h1 class="text2">Phone number</h1><p class="text3">8870523416</p>
+</ion-list></ion-list>
+<ion-list class="list2">
+  
+  <h1 class="text1">Product Items</h1>
+  <ion-list class="list6" *ngFor="let item of indexArray">
+    <img class="img1" src="{{item.img}}" alt="">
+<ion-list class="list7">
+<h1 class="text6">{{item.name}}</h1>
+<p class="text7">{{item.text}}</p> 
+<h1 class="text6">${{item.price}}</h1> 
+</ion-list>
+  </ion-list>
+ 
+  <!-- <ion-list class="list6">
+    <img class="img1" src="../../assets/img26.jpg" alt="">
+<ion-list class="list7">
+<h1 class="text6">Axel Arigato</h1>
+<p class="text7">Clean 90 Triple Sneakers</p> 
+<h1 class="text6">$245.00</h1> 
+</ion-list>
+  </ion-list> -->
+  <h1 class="text1">Promo</h1>
+  <ion-list class="list6">
+    <ion-button class="img2"><ion-icon name="earth-outline"></ion-icon> </ion-button>
+<ion-list class="list7">
+<h1 class="text8">Add promo code</h1>
+<p class="text9">#rika2021</p> 
+ 
+</ion-list>
+  </ion-list>
+
+</ion-list>
+<ion-list class="list2">
+  <h6 class="text10">Total price</h6>
+  <h1 class="text11">$443.00</h1>
+  <ion-button class="button2" (click)="next()"> Place Order</ion-button>
+</ion-list>
+</ion-list>
+
+</ion-content>

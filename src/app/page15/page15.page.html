@@ -1,0 +1,61 @@
+
+<ion-content>
+<ion-list class="list1">
+  <ion-row>
+    <ion-col size="12" size-lg="6">
+  <ion-list class="list2">
+   <ion-button (click)="next1()">
+    <ion-icon name="arrow-back-outline"></ion-icon>
+
+   </ion-button>
+
+    <ion-button class="button2">
+      <p>{{this.var}}</p>
+    </ion-button>
+   </ion-list>
+   <ion-list class="list2">
+    <h1 class="text1"> My Cart</h1>
+    <ion-list class="item1" *ngFor="let item of cardData; let i=index">
+      <img class="img1" src="{{item.img}}" alt="">
+      <ion-list class="item2">
+        <h1 class="text2">{{item.name}}</h1>
+        <p class="text3"  > color:{{item.color.color}}</p>
+        <h3 class="text4">size:{{item.size.size}}</h3>
+        <p class="text3"> price:{{item.price}}</p>
+        <ion-list class="list3">
+        <ion-row>
+          <ion-col size="4" class="col5"><ion-icon name="add-circle-outline"  (click)="Inc(i)" class="text9"></ion-icon></ion-col>
+          <ion-col size="4" class="col5"><p class="text10">{{item.quantity}}</p></ion-col>
+  <ion-col size="4" class="col5"><ion-icon class="text9" name="remove-circle-outline" (click)="dec(i)" ></ion-icon></ion-col>
+  </ion-row>
+      </ion-list>
+    </ion-list>
+   </ion-list>
+</ion-list>
+</ion-col>
+<ion-col size="12" size-lg="6">
+
+<ion-list class="list4">
+  <ion-list class="list5"><p class="text6">Subtotal:</p>
+  <p class="text7"> {{this.rupees}}</p> </ion-list>
+<ion-list class="list5"><p class="text6">Shpping: </p>
+  <p class="text7"> {{this.shipping}}</p> </ion-list>
+
+<ion-list class="list5"><p class="text6">discount</p>
+  <p class="text7"> {{this.discount}}</p>
+
+ </ion-list>
+ <ion-list class="list5"><p class="text6">grandtotal</p>
+  <p class="text7"> {{this.grandtotal}}</p>
+
+ </ion-list>
+
+</ion-list>
+<ion-list class="list9" (click)="next()"> <p class="text9"> Proceed to Checkout</p></ion-list>
+</ion-col>
+</ion-row>
+
+</ion-list>
+ 
+
+</ion-content>

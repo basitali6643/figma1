@@ -1,0 +1,20 @@
+<ion-list class="list1">
+<ion-list class="list2" *ngFor="let item of array"   >
+  <img src="{{ item.img}}" alt="" class="img1">
+  <p class="text1">{{item.name}}</p>
+  <p class="text2">{{item.price}}</p>
+  <p class="text3">{{item.amount}}</p>
+  <ion-list class="list3">
+    <p class="text4" > {{item.Q}}</p>
+  <ion-list class="list4">
+    <p class="text5">-{{item.var}}+</p>
+
+  </ion-list>
+
+  </ion-list>
+  <ion-button   (click)="next(item)" class="button1"> Add to Cart</ion-button>
+</ion-list>
+
+
+
+</ion-list>
